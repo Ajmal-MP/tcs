@@ -1,0 +1,83 @@
+body {
+  font-family: LatoWeb, sans-serif;
+}
+
+header {
+  background: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+header .navbar ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header .navbar i {
+  color: rgb(148, 148, 148);
+}
+header .navbar i:hover {
+  color: white;
+}
+
+.section1 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 27, 31);
+}
+.section1 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.round-image {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+#hai {
+  background: white;
+}
+
+#cards1 {
+  background-color: black;
+}
+
+#card2 {
+  background: #fff;
+}
+#card2 .container h1 {
+  color: rgb(71, 71, 71);
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  background: rgb(15, 15, 15);
+}
+
+footer {
+  background: rgb(71, 71, 71);
+  font-size: 0.8125rem;
+  color: #dadada;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  text-decoration: none;
+  color: #dadada;
+}
+footer ul a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.icon a {
+  text-decoration: none;
+}
+
+.bigmove {
+  background: url("/images/bigmove.png");
+}/*# sourceMappingURL=style.css.map */
